@@ -2,7 +2,7 @@ Group Details:
 1.Roopashree N -1KS17CS064
 2.Sai Sneha S  V-1KS17CS070
 
-GitHub repository link: 
+GitHub repository link: https://github.com/saisnehasv/Computer_NetworksAssignent1
 
 First question assigned from category A:
 A01:Write a program that takes the IP Address as input and validates that IP address is correct and is publicly assignable i.e. the IP address should belong to any of the following ranges
