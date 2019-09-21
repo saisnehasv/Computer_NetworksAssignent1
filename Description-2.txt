@@ -2,7 +2,7 @@ Group Details:
 1. Roopashree N- 1KS17CS064
 2. Sneha S V- 1KS17CS070
 
-GitHub repository link:https://github.com/saisnehasv/Computer_NetworksAssignent1
+GitHub repository link: https://github.com/saisnehasv/Computer_NetworksAssignment1/
 
 Second question assigned from Category B:
 B07. fetching of partial contents. Identify a web page having at least 10KB of size. Download this web page and save it locally. Now download this web page in chunks of 2K each i.e. bytes range 0-1999, 2000-3999, 4000-5999, ... and so on and save each chunk. Merge all the chunks to a single file. Compare this file with original single file received. Verify that Both files are identical.
