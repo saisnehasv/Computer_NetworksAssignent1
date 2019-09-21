@@ -1,0 +1,30 @@
+Group Details:
+1. Roopashree N- 1KS17CS064
+2. Sneha S V- 1KS17CS070
+
+GitHub repository link:
+
+Second question assigned from Category B:
+B07. fetching of partial contents. Identify a web page having at least 10KB of size. Download this web page and save it locally. Now download this web page in chunks of 2K each i.e. bytes range 0-1999, 2000-3999, 4000-5999, ... and so on and save each chunk. Merge all the chunks to a single file. Compare this file with original single file received. Verify that Both files are identical.
+
+Details of work done:
+The webpage used is : http://tosss.edu.in/chairman_message.htm (14K)
+This webpage was downloaded locally using wget. And then downloaded in chunks of 2K each using curl,
+given ranges:
+0-1999
+2000-3999
+4000-5999.. and so on.
+The two outputs are stored in different files and their contents is compared.
+
+How it is done:
+To download a webpage locally, we used the free software tool wget, 
+This software tool helps download the contents from web servers. It supports downloading via HTTP,HTTPs and FTP.
+command: wget [URL].. [option].. [file]
+
+To download a webpage in ranges, we used the free tool curl,
+This command-line tool is used for getting or sending data including files using URl syntax.
+command: curl [option]..[URl]..[file]
+
+
+
+

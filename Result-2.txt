@@ -1,0 +1,108 @@
+Group Details:
+1.Roopashree N -1KS17CS064
+2.Sai Sneha S  V-1KS17CS070
+
+Second question assigned result from Category B:
+
+Step 1: To download a webpage locally.
+
+command: wget http://tosss.edu.in/chairman_message.htm -O output.txt
+The wget command saves the url typed above, locally to the file named "output.txt'.
+The option '-O' is used to output the contents of the webpage to the file name mention to the right. It directly outputs the content to the file, and displays the details of the webpage dowloaded and stored.
+
+Example: 
+C:\Users\neetu\Desktop\GnuWin32\bin>wget http://tosss.edu.in/chairman_message.htm -O output.txt
+SYSTEM_WGETRC = c:/progra~1/wget/etc/wgetrc
+syswgetrc = C:\Users\neetu\Desktop\GnuWin32/etc/wgetrc
+--2019-09-19 17:51:01--  http://tosss.edu.in/chairman_message.htm
+Resolving tosss.edu.in... 207.182.142.219
+Connecting to tosss.edu.in|207.182.142.219|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14688 (14K) [text/html]
+Saving to: `output.txt'
+
+100%[==========================================================================================================================================>] 14,688      24.9K/s   in 0.6s
+
+2019-09-19 17:51:02 (24.9 KB/s) - `output.txt' saved [14688/14688]
+
+The webpage of 14K size is saved to 'output.txt'.
+
+Step 2: To download the same webpage in chunks of 2K each with range mentioned.
+
+command: curl -r 0-1999 http://tosss.edu.in/chairman_message.htm -o output1.txt
+
+The curl command saves the first 0-1999 bytes of the webpage.
+The option '-r' is used to specify the range and '-o' to output the webpage contents to the file mentioned.
+
+When the second range is mentioned, the option '-a' or '>>' extraction symbol is used to append it to the file. Using '-o' again will over write the contents in the second range with the contents stored in the file. This continues to store the contents of the next range from where the cursor pointed to previously.
+
+Example:
+C:\Users\neetu\Desktop>curl -r 0-1999 http://tosss.edu.in/chairman_message.htm -o output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   2976      0 --:--:-- --:--:-- --:--:--  2976
+
+C:\Users\neetu\Desktop>curl -r 2000-3999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   2840      0 --:--:-- --:--:-- --:--:--  2840
+
+C:\Users\neetu\Desktop>curl -r 4000-5999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   3007      0 --:--:-- --:--:-- --:--:--  3012
+
+C:\Users\neetu\Desktop>curl -r 6000-7999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   2635      0 --:--:-- --:--:-- --:--:--  2635
+
+C:\Users\neetu\Desktop>curl -r 8000-9999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   3007      0 --:--:-- --:--:-- --:--:--  3012
+
+C:\Users\neetu\Desktop>curl -r 10000-11999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   3016      0 --:--:-- --:--:-- --:--:--  3016
+
+C:\Users\neetu\Desktop>curl -r 12000-13999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2000  100  2000    0     0   2487      0 --:--:-- --:--:-- --:--:--  2487
+
+C:\Users\neetu\Desktop>curl -r 14000-15999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   688  100   688    0     0    773      0 --:--:-- --:--:-- --:--:--   773
+
+C:\Users\neetu\Desktop>curl -r 14000-15999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   688  100   688    0     0    989      0 --:--:-- --:--:-- --:--:--   991
+
+C:\Users\neetu\Desktop>curl -r 16000-17999 http://tosss.edu.in/chairman_message.htm >> output1.txt
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   362  100   362    0     0    536      0 --:--:-- --:--:-- --:--:--   537
+
+To show the contents downloaded in each range, '---'  is used to create blocks between the contents of two different ranges.
+When the contents of the two files are compared, it is concluded to be the same with no difference between the two different download files.
+The results can be seen in 'Res2(Full Access).txt' and 'Res2(Partial Access).txt'.
+When the range mentioned is greater than the size of the webpage, 'Reaquested range not satisfiable' message will be displyed in the file, which can be seen in 'output1.txt'.
+
+Challenges/issues faced:
+1. wget does not support downloading the contents of the webpage in ranges.
+although, we found a snippet that might work:
+wget --header="Range: bytes=0-99" www.geeksforgeeks.com
+
+this command saves the content of the webpage in the file named '---header="Range: bytes=0-99".html' 
+Solution to this was to use curl instead.
+
+2. To find a webpage sized atleast 10KB, 
+this seemed difficult because webpages usually have internal links which boosted their size to 500-600KB 
+We wanted to keep the results simple for better understanding.
+
+So we concluded that most of the webpages such as articles, blogs, school/college websites have more written content which will satisfy the 'atleast 10KB' constraint.
+Hence we decided to work this assignment on a school webpage.

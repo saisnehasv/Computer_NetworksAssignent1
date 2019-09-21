@@ -1,0 +1,29 @@
+Group Details:
+1.Roopashree N -1KS17CS064
+2.Sai Sneha S  V-1KS17CS070
+
+Assignment Question 3 Results:
+
+      The network log contains of several rows where each row represents a particular resource.By default,all the resources are listed in a chronological manner.The first resource is usually the main html document and the last few resources are the last requests made.
+The network log also contains several columns that contain information about a partiular resource.Some of the columns are 
+-->Name:name of the resource
+-->Status:the http response code.
+-->Initiator:the source of the resource request
+-->Size:The total size of the response headers plus the response body.
+-->Time:time taken by request
+-->Waterfall:it is a graphical representation of the different stages of a request.
+    
+   Using this information we analyzed the webpage selected that is: www.christjuniorcollege.in .
+When we use devtools to inspect the webpage,the total number of http requests made were 58 and the total size that was transferred is 189kb.
+Now using the filter column , we can select the option "img" provided to see the requests that correspond to only images.
+When this is done,we can observe that  46 out of the 58 requests are made for images.The total size corresponding to these images are 19.7 kb.
+The working will be shown during the presentation of the assignment.
+
+Challenges/issues faced:
+1.Figuring out how to analyze the various information presented by devtools:
+             Since we were looking for very specific information amongst the large amount of information provided, we had to  figure out the different options,columns and rows shown by devtools and understand what they represented.This was overcome by reading information online on sites such as: developers.google.com/web/tools/chrome-devtools/network/.
+2.Tried using wireshark for this question:
+          We initially considered using wireshark,as it is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education.It allows us to view http requests and header displaying the IP address of the source and destination, protocol it uses, length etc. Different http requests made have different color representing a specific protocol type.These requests can be filtered by using a capture filter like image-gif, image-jfif which would result in http requests made to access an image. It also allows the user to view the rate, burst rate, burst start of the requests under the ‘statistics’ tab:
+Wire shark-> statistics->HTTP-> requests.
+The problem that we faced for viewing http requests or headers is that, the size of the image accessed is not displayed unlike in developer tools.Hence we opted for using developper tools for this assignment.
+ 

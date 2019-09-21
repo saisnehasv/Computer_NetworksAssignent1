@@ -1,0 +1,37 @@
+Group Details:
+1.Roopashree N -1KS17CS064
+2.Sai Sneha S  V-1KS17CS070
+
+GitHub repository link: 
+
+First question assigned from category A:
+A01:Write a program that takes the IP Address as input and validates that IP address is correct and is publicly assignable i.e. the IP address should belong to any of the following ranges
+  1.0.0.1 - 9.255.255.255
+  11.0.0.1 - 126.255.255.255
+  127.0.0.1 - 127.0.0.255
+  128.0.0.1 - 239.255.255.255
+
+Steps to execute the program:
+Step 1:Download the .java extension file onto your system.
+Step 2:Go to the command prompt on your system and change the directory to the folder where the where .java file has been saved using the cd command.
+Step 3:Compile the file using the command "javac <filename>.java"
+Step 4:After compilation if any errors are present they will be displayed here.If no errors are found the prompt will appear.
+Step 5:The program can now be executed using the command:"java <filename> <argument>(which is an ip address for this particular assignment question).
+
+Example:
+C:\Users\neetu>cd desktop
+
+C:\Users\neetu\Desktop>javac A01.java
+
+C:\Users\neetu\Desktop>java A01 1.0.0.1
+1.0.0.1 is valid
+1.0.0.1 is publically assignable
+
+C:\Users\neetu\Desktop>
+
+The input parameter that needs to be provided is an ip address of  your choice.The program will check whether the given ip address is vaild and is publicly assignable and display the appropriate message.Examples of the input that can be provided are as follows:
+->123.231.11.1
+-->1.0.0.1
+-->127.0.0.11
+
+

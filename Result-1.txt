@@ -1,0 +1,42 @@
+Group Details:
+1.Roopashree N -1KS17CS064
+2.Sai Sneha S  V-1KS17CS070
+
+Assignment Question 1 Results::
+The program written contains two functions that checks the two requirements mentioned in the question.The first function "isValid()" checks whether the entered ip address is valid or not and the second function "isPubliclyAssignable()" checks if its publically assignable.An ip address is valid when it contains four integers ranging from 0-255 and is set apart by periods "." .An ip address can be called as publicly assignable when its between the following ranges:
+  1.0.0.1 - 9.255.255.255
+  11.0.0.1 - 126.255.255.255
+  127.0.0.1 - 127.0.0.255
+  128.0.0.1 - 239.255.255.255
+The main function reads the ip address provided as a string.Using the java in-built function split(),the string is broken down based on an expression mentioned (which in this case is a period "." ).The result is stored in a array of strings that we have called ipaddr[].Now using Integer.parseInt() this array of string is converted to array of integers(ip[]) and the two functions are called by passing the integer array ip[].
+-->The isValid() function checks two conditions,
+1.Whether the length of the array is four.
+2.Whether the numbers in the ip address ranges from 0-255 only.
+If both these conditions are satisfied it returns true,else it returns false.
+-->The isPubliclyAssignable() function checks whether all the numbers belong to the ranges mentioned in the question.If it is so ,it returns true,else it returns false.
+-->Based on the values returned by the functions , the main function prints the appropriate messages.
+Result Examples:
+
+C:\Users\neetu\Desktop>javac A01.java
+
+C:\Users\neetu\Desktop>java A01 123.78.0.1
+123.78.0.1 is valid
+123.78.0.1 is publically assignable
+
+C:\Users\neetu\Desktop>java A01 127.1.1.0
+127.1.1.0 is valid
+127.1.1.0 is not publically assignable
+
+C:\Users\neetu\Desktop>java A01 128.98.10.0.1
+128.98.10.0.1 is invalid
+
+C:\Users\neetu\Desktop>java A01 545.782.9.10
+545.782.9.10 is invalid
+
+-->In the first example,the input is 123.78.0.1 .The isValid() function verifies that its length is four , and the numbers range between 0-255 and returns true.The ispubliclyAssignable() function verifies that it belongs to the range  11.0.0.1 - 126.255.255.255 and therefore returns true.Hence the output printed is that the ipaddress is valid and is publicly assignable.
+
+-->In the second example,the input is 127.1.1.0 .The isValid() function verifies that its length is four , and the numbers range between 0-255 and returns true.The ispubliclyAssignable() function sees that it does not belong to any of the required ranges and therefore returns false.Hence the output printed is that the ipaddress is valid and is not publicly assignable
+
+-->In the third example,the input is 128.98.10.0.1 . The isValid() function sees that its length is not four and returns false.Since it returns false, the isPubliclyAssignable() function is not called.Therefore the output printed is that the ip address is invalid.
+
+-->In the fourth example,the input is 545.782.9.10 . The isValid() function sees that its length is four but the numbers exceed 255 and hence returns false.Since it returns false, the isPubliclyAssignable() function is not called.Therefore the output printed is that the ip address is invalid.

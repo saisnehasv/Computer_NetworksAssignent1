@@ -1,0 +1,403 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>The Oxford Senior Secondary School </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="jqueryslidemenu.css" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jqueryslidemenu.js"></script>
+<script type="text/javascript" src="js/easySlider1.7.js"></script>
+	<script type="text/javascript">
+$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true
+			});
+		});
+	</script>
+	
+<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+<!--
+.style48 {
+	color: #333333;
+	font-weight: bold;
+	font-size: 18px;
+}
+.style21 {font-weight: bold}
+.style40 {font-size: 15px; font-weight: bold; color: #3CBBE8; }
+.style54 {color: #CCCCCC}
+.style8 {	color: #FFFFFF;
+	font-weight: bold;
+}
+
+-->
+</style>
+
+<!--[if lt IE 7]>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters)) 
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText 
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }    
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+</head>
+<div align="center">
+<body>
+<table width="950" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="44" height="2"></td>
+    <td width="891"></td>
+    <td width="15"></td>
+  </tr>
+  <tr>
+    <td height="20"></td>
+    <td valign="top" class="text_11"><div align="right"><a href="index.htm" class="read_more1">Home</a> | <a href="history.htm" class="read_more1">About us </a> | <a href="career.htm" class="read_more1">Career </a> | <a href="photo_gallery.htm" class="read_more1">Gallery</a></div></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="8"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table> 
+<table width="950" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+    <tr>
+      <td width="951" height="8"></td>
+  </tr>
+    <tr>
+      <td height="152" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr>
+          <td width="950" height="112" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="text" >
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="123" rowspan="5" valign="middle"><a href="http://www.theoxford.edu"><img src="images/logo1.jpg" width="123" height="120" border="0" align="absmiddle"></a></td>
+              <td width="10" height="4"></td>
+              <td width="180" rowspan="5" valign="middle"><a href="http://www.theoxford.edu"><img src="images/LOGO_NEW.jpg" width="180" height="85" border="0" align="absmiddle"></a></td>
+              <td width="270"></td>
+              <td width="88"></td>
+              <td width="13"></td>
+              <td width="249"></td>
+              <td width="18"></td>
+            </tr>
+            <tr>
+              <td height="34"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td valign="top"><div align="right"> <span class="text"> <strong>
+                    <script>
+	  var mydate = new Date();
+	  var year = mydate.getFullYear();
+	  var day = mydate.getDay();	  
+	  var month = mydate.getMonth();	  
+	  var dayshow = mydate.getDate();
+	  if(dayshow<10)
+	  dayshow = "0"+dayshow;
+	  var dayarray = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+ 	  var montharray = new Array("Jan","Feb","Mar","April","May","June","July","Aug","Sept","Oct","Nov","Dec");
+	  document.write (dayarray[day]+" "+dayshow+" "+montharray[month]+" "+year);
+	  	      </script>
+                    </strong></span> <span class="text"><strong>::
+                    <script>
+		
+		var time = new Date();
+		var hours = time.getHours();
+		var minu = time.getMinutes();
+		var sec = time.getSeconds();
+		document.write (hours+"Hrs"+" "+minu+"Min"+" ");
+		
+		            </script>
+                &nbsp;</strong></span></div></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td height="16"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+
+            
+            
+            
+            <tr>
+              <td height="50"></td>
+              <td></td>
+              <td valign="top"><img src="images/1.jpg" width="88" height="50"></td>
+              <td></td>
+              <td colspan="2" rowspan="2" valign="top"><a href="links.htm"><img src="images/PARENT-INFORMATION-SYSTEM.png" width="266" height="58" border="0"></a></td>
+            </tr>
+            <tr>
+              <td height="16"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </table></td>
+      </tr>
+        <tr>
+          <td height="40" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-image:url(images/button.jpg);background-repeat:repeat-x;">
+            <!--DWLayoutTable-->
+            <tr>
+              <td width="5" height="40">&nbsp;</td>
+              <td width="936" valign="middle"><div id="myslidemenu" class="jqueryslidemenu"> 
+                    <ul>
+                      <li><a href="index.htm">Home</a> </li>
+                      <li><a href="#">About the School</a> 
+                        <ul>
+                          <li><a href="history.htm">History of the School</a> 
+                          </li>
+                          <li><a href="school_schedule.htm">School Schedule</a></li>
+                          <li><a href="chairman_message.htm">Chairman's Message</a></li>
+                          <li><a href="director_message.htm">Director's Message</a></li>
+                          <li><a href="principal_message.htm">Principal's Message</a></li>
+                          <li><a href="faculty.htm">Faculty </a> </li>
+                          <li><a href="teachers_leadership_programme.htm">Teachers 
+                            Leadership Programme </a> </li>
+                          
+                        </ul>
+                      </li>
+                      <li><a href="#">Admissions</a> 
+                        <ul>
+                          <li><a href="guidelines_contact.htm">Guidelines & Contact 
+                            details</a> </li>
+                          <li><a href="links.htm">Links - Download Forms</a></li>
+						  <li><a href="TRANSFER CERTIFICATE.jpg" target="_blank">Transfer Certificate</a></li>
+                          
+                        </ul>
+                      </li>
+                      <li><a href="#">Academics</a> 
+                        <ul>
+                          <li><a href="curriculum_courses.htm">Curriculum Courses</a> 
+                          </li>
+                          <li><a href="assessment_evaluation.htm">Assessment & 
+                            Evaluation</a></li>
+                          <li><a href="learning_resources.htm">Learning Resources</a></li>
+                          <li><a href="activity.htm">Activity</a> </li>
+						  <li><a href="http://cbse.nic.in/newsite/circulars.html" target="_blank">CBSE Circulars</a> </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Co-Scholastic</a> 
+                        <ul>
+                          <li><a href="cca_competitions.htm">CCA Competitions 
+                            & Winners List</a> </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Achievements</a> 
+                        <ul>
+                          <li><a href="academic_achievements.htm">Academic Achievements</a> 
+                          </li>
+                          <li><a href="non_scholastic_achievements.htm">Co-Scholastic 
+                            Achievements</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="press_news.htm">Press News</a> </li>
+                      <li><a href="photo_gallery.htm">Gallery</a> </li>
+                      <li><a href="contact_us.htm">Contact us</a> </li>
+                    </ul>
+                  </div></td>
+              <td width="9">&nbsp;</td>
+            </tr>
+            </table></td>
+      </tr>
+        
+        </table></td>
+  </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <tr>
+    <td height="325" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <!--DWLayoutTable-->
+      
+	  <tr>
+        <td height="40" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#1371a7" class="text_11" >
+              <!--DWLayoutTable-->
+              <tr>
+                <td width="9" height="40">&nbsp;</td>
+                <td width="930" valign="middle"><div align="right"><strong><a href="cca.htm" class="menu_topmain">CCA ACTIVITIES 2016</a> | <a href="32_Circular_Maths_2016-17.pdf" target="_blank" class="menu_topmain">CIRCULAR FROM CBSE</a> | <a href="32_SQP-Mathematics-Class-XII-2016-17_with_Marking_Scheme.pdf" target="_blank" class="menu_topmain">Class XII Mathematics SQP</a></strong></div></td>
+                <td width="12">&nbsp;</td>
+              </tr>
+                                  </table></td>
+        </tr>
+      <tr>
+        <td height="410" valign="top">
+		
+		<div id="slider">
+                <ul>				
+                  <li><a href="#"><img src="images/b1.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b2.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b3.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b4.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b5.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b6.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b7.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b8.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b9.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b10.jpg" border="0"  /></a></li>
+				  <li><a href="#"><img src="images/b11.jpg" border="0"  /></a></li>
+                    </ul>
+                      </div>		</td>  
+        </tr>
+      
+
+
+      
+
+      
+    </table></td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td height="248" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="text">
+      <!--DWLayoutTable-->
+      <tr>
+        <td width="10" height="441"></td>
+        <td width="930" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="text">
+          <!--DWLayoutTable-->
+          <tr>
+            <td width="8" height="50">&nbsp;</td>
+                <td width="922" valign="middle" class="border_bottom"><div align="left" class="text_h"><img src="images/puce.png" width="23" height="22" align="absmiddle"> <span class="style48">CHAIRMAN'S MESSAGE </span></div></td>
+              </tr>
+          <tr>
+            <td height="328">&nbsp;</td>
+            <td valign="top"><div class="text_12">
+                      <div align="left"><strong>The information will be updated shortly</strong></div>
+            </div></td>
+              </tr>
+          
+          
+        </table></td>
+        <td width="11"></td>
+      </tr>
+      <tr>
+        <td height="13"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      
+    </table></td>
+  </tr>
+  <tr>
+    <td height="19">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td height="64" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#0f5867" class="text_11">
+      <!--DWLayoutTable-->
+      
+      <tr>
+        <td width="7" height="5"></td>
+          <td width="544"></td>
+          <td width="387"></td>
+          <td width="13"></td>
+      </tr>
+      <tr>
+        <td height="39">&nbsp;</td>
+          <td valign="middle"><span class="text_11">&copy; The  Oxford Senior Secondary School  | All Rights Reserved </span></td>
+          <td valign="middle"><div align="right" class="read_more"><span class="text_11">Miantained by </span>NitaMicrotek </div></td>
+          <td>&nbsp;</td>
+      </tr>
+      
+      <tr>
+        <td height="7"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      
+      
+      
+      
+      
+      
+      
+    </table></td>
+  </tr>
+</table>
+</body>
+</div>
+</html>
