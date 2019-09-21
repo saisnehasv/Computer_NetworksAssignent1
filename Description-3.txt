@@ -2,7 +2,7 @@ Group Details:
 1.Roopashree N -1KS17CS064
 2.Sai Sneha S  V-1KS17CS070
 
-GitHub repository link:https://github.com/saisnehasv/Computer_NetworksAssignent1
+GitHub repository link:https://github.com/saisnehasv/Computer_NetworksAssignment1/
 
 Third question assigned from category B:
 B14. Access a web page your of your school (plus two or PU) and analyze the total number of requests made by the browser for that web page. Out of these total HTTP Requests, count the number of those requests that correspond to image and their total size.
